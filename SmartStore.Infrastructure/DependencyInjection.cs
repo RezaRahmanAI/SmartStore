@@ -19,7 +19,7 @@ namespace SmartStore.Infrastructure
             // Register infrastructure services here
 
             services.AddDbContext<AppDbContext>(opt =>
-            opt.UseSqlServer(configuration.GetConnectionString("DependencyInjection")));
+            opt.UseSqlServer(configuration.GetConnectionString("DefaultConnection")));
 
             services.AddScoped<IProductRepository, ProductRepository>();
 
