@@ -2,12 +2,6 @@
 using SmartStore.Application.Interfaces;
 using SmartStore.Domain.Entities;
 using SmartStore.Infrastructure.Persistence;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
 namespace SmartStore.Infrastructure.Repositories;
 
 public class ProductRepository : IProductRepository

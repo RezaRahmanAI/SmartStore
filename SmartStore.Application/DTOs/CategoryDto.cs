@@ -1,9 +1,7 @@
 ﻿namespace SmartStore.Application.DTOs;
 
-public record ProductDto(
+public record CategoryDto (
     int Id,
     string Name,
-    decimal Price,
-    int Stock,
     bool IsActive
 );
